@@ -34,6 +34,7 @@ Main entities include:
 - Category
 
 This model focuses on **business meaning** and is independent of implementation details.
+![Conceptual Model](docs/Chen_ER1.png)
 
 📌 Diagrams available in `/docs/Chen_ER1.png`
 
@@ -46,6 +47,7 @@ Key design decisions:
 - Resolution of many-to-many relationships using junction tables
 - Hierarchical categories modeled with self-referencing keys
 - Multi-valued attributes (phone numbers, addresses) separated into dependent tables
+![Logical Model](docs/Crows_Foot1.png)
 
 📌 Diagrams available in `/docs/Crows_Foot1.png`
 
@@ -85,6 +87,7 @@ This model enables efficient analysis such as:
 - loan trends over time
 - user borrowing behavior
 - librarian workload analysis
+![Dimension Tables model](docs/Crows_Foot2.png)
 
 📌 Star schema diagrams available in `/docs/Crows_Foot2.png`
 
@@ -95,6 +98,7 @@ An ETL process was implemented to:
 - extract data from the normalized OLTP schema
 - generate surrogate keys for dimension tables
 - populate the fact table with timestamp-based tracking
+![ETL flow](docs/etl_flow.png)
 
 📌 ETL logic: `/sql/etl/Timestamp_ETL.sql`
 

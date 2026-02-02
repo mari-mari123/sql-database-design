@@ -64,8 +64,8 @@
 - 作成日時・更新日時などの監査用カラムを追加
 
 📌 SQLスクリプト
-- `/sql/normalization/ddl.sql`（テーブル定義）
-- `/sql/normalization/dml.sql`（サンプルデータ投入）
+- [`/sql/normalization/ddl.sql`](/sql/normalization/ddl.sql) – テーブル定義
+- [`/sql/normalization/dml.sql`](/sql/normalization/dml.sql) – サンプルデータ投入
 
 ---
 
@@ -103,8 +103,9 @@ OLTPデータから分析用データを生成するため、ETL処理をSQLで�
 - タイムスタンプを用いたファクトテーブルへのデータ投入
 ![ETL flow](docs/etl_flow.png)
 
-📌 ETLスクリプト
-- `/sql/etl/Timestamp_ETL.sql`
+📌 ETLスクリプト: `/sql/etl/Timestamp_ETL.sql`
+
+📌 SQL scripts: [`/sql/etl/Timestamp_ETL.sql`](/sql/etl/Timestamp_ETL.sql)
 
 ---
 

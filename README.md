@@ -69,8 +69,8 @@ Key characteristics:
 - Audit columns for tracking data changes (`CreatedOn`, `ModifiedOn`)
 
 📌 SQL scripts:
-- `/sql/normalization/ddl.sql` – table definitions and constraints
-- `/sql/normalization/dml.sql` – sample data population
+- [`/sql/normalization/ddl.sql`](/sql/normalization/ddl.sql) – table definitions and constraints
+- [`/sql/normalization/dml.sql`](/sql/normalization/dml.sql) – sample data population
 
 ---
 
@@ -107,6 +107,7 @@ An ETL process was implemented to:
 ![ETL flow](docs/etl_flow.png)
 
 📌 ETL logic: `/sql/etl/Timestamp_ETL.sql`
+📌 SQL scripts: [`/sql/etl/Timestamp_ETL.sql`](/sql/etl/Timestamp_ETL.sql)
 
 ---
 

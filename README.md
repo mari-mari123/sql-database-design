@@ -2,7 +2,7 @@
 
 ## Language
 - 🇺🇸 English (this page)
-- 🇯🇵 Japanese → [README_ja.md](README_jp.md)
+- 🇯🇵 Japanese → [README_jp.md](README_jp.md)
 
 ---
 

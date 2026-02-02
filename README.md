@@ -1,5 +1,11 @@
 # 📚 Relational Database Design & Data Modeling Project
 
+## Language
+- 🇺🇸 English (this page)
+- 🇯🇵 Japanese → [README_ja.md](README_ja.md)
+
+--
+
 ## Overview
 This project demonstrates the end-to-end design and implementation of a **library management database**,
 covering the full lifecycle from conceptual modeling to analytical data modeling.

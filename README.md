@@ -4,7 +4,7 @@
 - 🇺🇸 English (this page)
 - 🇯🇵 Japanese → [README_ja.md](README_ja.md)
 
---
+---
 
 ## Overview
 This project demonstrates the end-to-end design and implementation of a **library management database**,
